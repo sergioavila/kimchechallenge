@@ -1,4 +1,11 @@
+@import url('./normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
 body {
   margin: 0;
   padding: 0;
+  background-color: #edebfe;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  color: #232321;
 }

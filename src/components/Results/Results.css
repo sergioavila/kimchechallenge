@@ -36,27 +36,39 @@
     color: #5581fb;
     border-color: #5581fb;
 }
-
+.results__body__loading{
+    text-align: center;
+    padding: 1em;
+    padding-bottom: 2em;
+    font-size: 0.8em;
+    color: #5581fb;
+}
 .results__body__item{
     padding: 1em;
     display: flex;
+    margin-bottom: 2em;
 }
 .results__body__item__flag{
-    width: 8em;
-    height: 8em;
+    width: 7em;
+    height: 7em;
     margin-right: 2em;
     border-radius: 50%;
     overflow: hidden;
 }	
-.results__body__item__flag img{
-    width: 140%;
+.results__body__item__flag span{
+    font-size: 7em;
 }
 .results__body__item__info p{
     font-size: 0.8em;
+    line-height: 1em;
+    margin: 0.4em 0;
 }
 @media (max-width: 768px) {
     .results__body__item__flag{
         width: 6em;
         height: 6em;
+    }
+    .results__body__item__flag span{
+        font-size: 6em;
     }
 }

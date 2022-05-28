@@ -8,14 +8,14 @@ import Results from "./components/Results/Results";
 import About from "./components/About/About";
 
 const client = new ApolloClient({
-  uri: "https://48p1r2roz4.sse.codesandbox.io",
+  uri: "https://countries.trevorblades.com",
 });
 
 const App = () => (
   <ApolloProvider client={client}>
     <div className="app">
       <Search />
-      <Results />
+      <Results>asd</Results>
       <About />
     </div>
   </ApolloProvider>
